@@ -12,5 +12,6 @@
 
 @property (nonatomic, strong)UIImage    *normalImage;
 @property (nonatomic, strong)UIImage    *highlightImage;
+@property (nonatomic, assign)BOOL       needRoundRot;
 
 @end
