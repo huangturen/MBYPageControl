@@ -12,4 +12,6 @@
 
 - (UIImage *)rescaleImageToSize:(CGSize)size;
 
++ (UIImage *)imageFromColor:(UIColor *)color size:(CGSize)size;
+
 @end

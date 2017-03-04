@@ -62,7 +62,7 @@
         return;
     }
     
-    if (self.needRoundRot) {
+    if (self.needRoundDot) {
         CGFloat width = MIN(imgSz.width, imgSz.height);
         image = [image rescaleImageToSize:CGSizeMake(width, width)];
         imgSz = image.size;
@@ -74,7 +74,7 @@
                                                                      imgSz.width,
                                                                      imgSz.height)];
     dot.image = image;
-    if (self.needRoundRot) {
+    if (self.needRoundDot) {
         dot.layer.cornerRadius = imgSz.width/2.0;
     }
     dot.layer.masksToBounds = YES;
